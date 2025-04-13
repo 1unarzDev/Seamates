@@ -5,6 +5,12 @@ namespace Pirate {
     [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
     public class PlayerController : MonoBehaviour, IPlayerController {
         [SerializeField] private ScriptableStats _stats;
+        [SerializeField] private Animator _animator;
+        [SerializeField] private SpriteRenderer _spriteRenderer;
+        [SerializeField] private KeyCode _up;
+        [SerializeField] private KeyCode _left;
+        [SerializeField] private KeyCode _down;
+        [SerializeField] private KeyCode _right;
         private Rigidbody2D _rb;
         private CapsuleCollider2D _col;
         private FrameInput _frameInput;
@@ -29,19 +35,21 @@ namespace Pirate {
             _cachedQueryStartInColliders = Physics2D.queriesStartInColliders;
         }
 
-        // Chracter movement loop that takes in input and reacts to it, runs every frame
+        // Character movement loop that takes in input and reacts to it, runs every frame
         private void Update() {
-            _time += Time.deltaTime; // used for consistent physics regardless of the frame rate
+            _time += Time.deltaTime; // Used for consistent physics regardless of the frame rate
             GatherInput();
         }
         
         private void GatherInput() {
             _frameInput = new FrameInput {
-                JumpDown = Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.C),
-                JumpHeld = Input.GetButton("Jump") || Input.GetKey(KeyCode.C),
-                Move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"))
+                JumpDown = Input.GetKeyDown(_up),
+                JumpHeld = Input.GetKey(_up),
+                Move = new Vector2(
+                                    (Input.GetKey(_right) ? 1 : 0) - (Input.GetKey(_left) ? 1 : 0), 
+                                    (Input.GetKey(_up) ? 1: 0) - (Input.GetKey(_down) ? 1 : 0))
             };
-                      
+
             if(_frameInput.JumpDown) {
                 _jumpToConsume = true;
                 _timeJumpWasPressed = _time;
@@ -56,6 +64,8 @@ namespace Pirate {
             HandleGravity();
 
             ApplyMovement();
+            
+            Animations();
         }
 
         #region Collision
@@ -130,6 +140,8 @@ namespace Pirate {
             }
             else {
                 _frameVelocity.x = Mathf.MoveTowards(_frameVelocity.x, _frameInput.Move.x * _stats.MaxSpeed, _stats.Acceleration * Time.fixedDeltaTime);
+                if(_frameInput.Move.x == 1) _spriteRenderer.flipX = false;
+                if(_frameInput.Move.x == -1) _spriteRenderer.flipX = true;
             }
         }
         
@@ -145,6 +157,31 @@ namespace Pirate {
                 var inAirGravity = _stats.FallAcceleration;
                 if(_endedJumpEarly && _frameVelocity.y > 0) inAirGravity *= _stats.JumpEndEarlyGravityModifier;
                 _frameVelocity.y = Mathf.MoveTowards(_frameVelocity.y, -_stats.MaxFallSpeed, inAirGravity * Time.fixedDeltaTime);
+            }
+        }
+
+        #endregion
+        
+        #region Animation
+
+        private void Animations() {
+            if(_grounded) {
+                
+                _animator.SetBool("isJumping", false);
+                _animator.SetBool("isFalling", false);
+            }
+            else if(_frameVelocity.y < 0) {
+                _animator.SetBool("isFalling", true);
+            }
+            else {
+                _animator.SetBool("isJumping", true);
+            }
+            
+            if(_frameInput.Move.x != 0){
+                _animator.SetBool("isRunning", true);
+            }
+            else {
+                _animator.SetBool("isRunning", false);
             }
         }
 
