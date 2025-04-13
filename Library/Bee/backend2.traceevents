@@ -1,0 +1,359 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1744563035975530, "dur":2215, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744563035977782, "dur":256, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744563035978047, "dur":1584, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744563035979633, "dur":4729678, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744563040709616, "dur":756, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1744563035977830, "dur":1808, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744563035979640, "dur":420, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980227, "dur":51, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980320, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980411, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980510, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980595, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980745, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980798, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980950, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035981065, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035981331, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035981412, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035981635, "dur":415, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035982050, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035982196, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035982277, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035982455, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035982520, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035982613, "dur":594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035983207, "dur":506, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035983713, "dur":861, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035984585, "dur":1625, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035986211, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035986507, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035986601, "dur":188, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035986790, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035986953, "dur":260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035987214, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035987550, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1744563035987628, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1744563035987740, "dur":1184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035988945, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1744563035989035, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1744563035989185, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1744563035989268, "dur":278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035989547, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035989612, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035989743, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035989907, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035990070, "dur":351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035990473, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll" }}
+,{ "pid":12345, "tid":1, "ts":1744563035980280, "dur":10339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1744563035990661, "dur":72618, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1744563036063635, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1744563036063783, "dur":4645442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744563035977834, "dur":1808, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744563035979644, "dur":78, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744563035979722, "dur":374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744563035988011, "dur":2405, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1744563035986628, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744563035990447, "dur":297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744563035990866, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1744563035992085, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744563035994043, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744563035996897, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744563035998803, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744563036000958, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1744563036002264, "dur":4707066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035977851, "dur":1795, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035979647, "dur":226, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035979873, "dur":239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035986518, "dur":263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744563035986788, "dur":172, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035986962, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744563035987168, "dur":99, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035987428, "dur":2424, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035987269, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744563035989947, "dur":515, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1744563035989869, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1744563035990474, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744563035991881, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1744563035992294, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744563035993930, "dur":421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1744563035994388, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1744563035996254, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1744563035997841, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744563036000950, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1744563036002234, "dur":4707001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744563035977869, "dur":1782, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744563035979654, "dur":239, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744563035979894, "dur":222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744563035980130, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744563035986517, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744563035987483, "dur":2490, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1744563035987322, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1744563035989999, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744563035991971, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744563035993822, "dur":366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1744563035993822, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1744563035994201, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1744563035994490, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1744563035994490, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1744563035994628, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1744563035996336, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744563035996478, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1744563035997833, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744563036000980, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1744563036002317, "dur":4706986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744563035977876, "dur":1781, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744563035979660, "dur":238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744563035979898, "dur":163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744563035986613, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744563035986723, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744563035986840, "dur":209, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744563035987053, "dur":248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744563035987619, "dur":2737, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1744563035987352, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1744563035990378, "dur":454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744563035990895, "dur":269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1744563035991247, "dur":7016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744563035998288, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1744563036001209, "dur":4708018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744563035977886, "dur":1803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744563035979692, "dur":266, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744563035979958, "dur":112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744563035986514, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563035987032, "dur":101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563035987140, "dur":222, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744563035987639, "dur":2872, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744563035987365, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563035990528, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563035992097, "dur":4217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563035996671, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563035996846, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563035998090, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563036002153, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1744563036000894, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1744563036002259, "dur":4707061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744563035977898, "dur":1797, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744563035979697, "dur":178, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744563035979875, "dur":227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744563035986611, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744563035986812, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744563035987064, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744563035986917, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744563035987482, "dur":2480, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1744563035987164, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744563035990008, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744563035990115, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1744563035991150, "dur":31365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/UnityPlayer.so" }}
+,{ "pid":12345, "tid":7, "ts":1744563036022520, "dur":4686776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744563035977908, "dur":1791, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744563035979701, "dur":249, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744563035979951, "dur":171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744563035986511, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744563035986789, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744563035987463, "dur":3009, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744563035987058, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744563035991935, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1744563035990485, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744563035992131, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744563035994004, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1744563035994004, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1744563035994277, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1744563035994502, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1744563035996327, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744563036000983, "dur":3414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1744563036004401, "dur":4704863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035977919, "dur":1784, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035979704, "dur":200, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035979904, "dur":215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035986507, "dur":211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563035986730, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563035986812, "dur":64, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563035986941, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035986887, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563035987008, "dur":134, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035987487, "dur":2833, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035987150, "dur":3174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563035990330, "dur":153, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035990486, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563035991929, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1744563035991994, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563035993583, "dur":7258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":9, "ts":1744563036000854, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1744563036002167, "dur":4707066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035977930, "dur":1777, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035979708, "dur":184, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035979892, "dur":207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035987166, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035986515, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744563035987773, "dur":2614, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035987373, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744563035990434, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035991928, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1744563035990522, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744563035992105, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1744563035993629, "dur":11459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":10, "ts":1744563036005092, "dur":4704199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744563035977940, "dur":1771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744563035979712, "dur":374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744563035986521, "dur":372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744563035986905, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744563035987390, "dur":2443, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744563035987027, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744563035989858, "dur":569, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744563035990429, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1744563035992099, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744563035993667, "dur":360, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1744563035993666, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1744563035994063, "dur":219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1744563035994316, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1744563035998267, "dur":740, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1744563035996280, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744563036000813, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":11, "ts":1744563036001215, "dur":4708022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744563035977951, "dur":1763, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744563035979714, "dur":349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980168, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980308, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980394, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980496, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980579, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980726, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980793, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980950, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035981057, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035981332, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035981412, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035981635, "dur":416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035982051, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035982195, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035982277, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035982455, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035982521, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035982613, "dur":593, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035983207, "dur":506, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035983713, "dur":862, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1744563035984578, "dur":1715, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Seamates!/Library/PackageCache/com.unity.burst@1.8.19/.Runtime/bcl.exe" }}
+,{ "pid":12345, "tid":12, "ts":1744563035980064, "dur":6229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":12, "ts":1744563035986357, "dur":4722615, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":13, "ts":1744563035977961, "dur":1756, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744563035979718, "dur":346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744563035986616, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744563035986870, "dur":266, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744563035987498, "dur":2828, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744563035987138, "dur":3193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744563035990336, "dur":157, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1744563035990495, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744563035991966, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744563035993725, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1744563035996902, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744563035998127, "dur":523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744563035998660, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1744563036001311, "dur":4707919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744563035977970, "dur":1750, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744563035979721, "dur":405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744563035986518, "dur":421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563035986944, "dur":94, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744563035987040, "dur":81, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563035987127, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744563035987412, "dur":2430, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744563035987232, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563035989869, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1744563035990049, "dur":78, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563035990135, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563035991015, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1744563035996384, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563035996529, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563036002156, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1744563036000857, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1744563036002264, "dur":4707014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744563035977985, "dur":1738, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744563035979723, "dur":351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744563035986597, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563035987121, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563035987461, "dur":2463, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744563035987356, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563035989941, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563035990094, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563035990993, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":15, "ts":1744563035993402, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":15, "ts":1744563035994018, "dur":109, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1744563035993695, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563035994134, "dur":545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1744563035994134, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1744563035994692, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1744563035996339, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563035996810, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563036000899, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":15, "ts":1744563036002231, "dur":4707011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744563035977998, "dur":1728, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744563035979726, "dur":340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744563035986622, "dur":179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744563035986844, "dur":90, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744563035987154, "dur":172, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744563035987004, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744563035987442, "dur":2996, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1744563035990441, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1744563035993719, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/app.info" }}
+,{ "pid":12345, "tid":16, "ts":1744563035993999, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1744563035996220, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744563035996581, "dur":289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744563035996883, "dur":4023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1744563036001219, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1744563036003127, "dur":4706144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1744563035978012, "dur":1716, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1744563035979729, "dur":351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1744563035986875, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1744563035986629, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035987028, "dur":246, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1744563035987432, "dur":2431, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1744563035987276, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035989878, "dur":76, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":17, "ts":1744563035989974, "dur":90, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035990071, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035990729, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1744563035990728, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1744563035990980, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1744563035991956, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035994048, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1744563035994509, "dur":280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.RenderPipelines.Universal.2D.Internal.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035994797, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035996408, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035998289, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563035998845, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563036000871, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":17, "ts":1744563036002296, "dur":4706958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1744563035978022, "dur":1709, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1744563035979731, "dur":400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1744563035986507, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1744563035987115, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1744563035987275, "dur":62, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1744563035987623, "dur":2747, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1744563035987342, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":18, "ts":1744563035990390, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1744563035991001, "dur":11581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!.x86_64" }}
+,{ "pid":12345, "tid":18, "ts":1744563036002586, "dur":4706664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1744563035978032, "dur":1701, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1744563035979733, "dur":357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1744563035986998, "dur":177, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1744563035986512, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1744563035987443, "dur":2435, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1744563035987196, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1744563035989896, "dur":31441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1744563036021342, "dur":4687881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1744563035978043, "dur":1692, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1744563035979736, "dur":370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1744563035986520, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1744563035987040, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1744563035987259, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1744563035987506, "dur":2835, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1744563035987334, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1744563035990360, "dur":141, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1744563035990502, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1744563035991901, "dur":357, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/liam-bray/Unity/Hub/Editor/2022.3.61f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1744563035991900, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1744563035992293, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1744563035993574, "dur":8176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/liam-bray/Downloads/Seamates!_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":20, "ts":1744563036001754, "dur":4707532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1744563040712043, "dur":198, "ph":"X", "name": "ProfilerWriteOutput" }
+,

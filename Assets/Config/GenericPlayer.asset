@@ -15,7 +15,7 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 64
-  MaxSpeed: 14
+  MaxSpeed: 11
   Acceleration: 120
   GroundDeceleration: 60
   AirDeceleration: 30
